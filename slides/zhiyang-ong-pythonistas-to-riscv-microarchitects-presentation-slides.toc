@@ -1,4 +1,4 @@
 \beamer@sectionintoc {2}{Problems in Computer Architecture}{3}{0}{1}
-\beamer@sectionintoc {3}{New Golden Era of Computer Architecture + EDA + Compilers}{6}{0}{2}
-\beamer@sectionintoc {4}{Python-based IC Design}{9}{0}{3}
-\beamer@sectionintoc {5}{Section 3}{11}{0}{4}
+\beamer@sectionintoc {3}{New Golden Era of Computer Architecture, EDA, and Compiler Design}{6}{0}{2}
+\beamer@sectionintoc {4}{Python-based IC Design}{10}{0}{3}
+\beamer@sectionintoc {5}{Section 3}{12}{0}{4}

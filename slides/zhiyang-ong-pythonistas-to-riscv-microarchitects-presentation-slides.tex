@@ -214,7 +214,7 @@ Helping {\it Python}istas Become Microarchitects}
 %	Slide 1
 
 \begin{frame}
-	\frametitle{Problems in Computer Architecture (1)}
+	\frametitle{Problems in Computer Architecture}
 	\framesubtitle{Specifically with General-Purpose Processor Architectures}
 	
 	Golden Era of Computer Architecture (1980s till early 2000s): \begin{itemize} %\itemsep -4pt
@@ -237,7 +237,7 @@ Helping {\it Python}istas Become Microarchitects}
 %	Slide 2
 
 \begin{frame}
-	\frametitle{Problems in Computer Architecture (2)}
+	\frametitle{Problems in Computer Architecture}
 	\framesubtitle{Specifically with General-Purpose Processor Architectures}
 	
 	\begin{figure}
@@ -255,7 +255,7 @@ Helping {\it Python}istas Become Microarchitects}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Section Two
-\section{New Golden Era of Computer Architecture + EDA + Compilers}
+\section{New Golden Era of Computer Architecture, EDA, and Compiler Design}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -300,12 +300,37 @@ Helping {\it Python}istas Become Microarchitects}
 
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 5
+\begin{frame}
+	\frametitle{New Golden Era of Computer Architecture (3)}
+	\framesubtitle{And, also for EDA and Compiler Design}
+	
+	Recent {\bf Non- von Neumann Computing Paradigms and Technology Trends}:
+	\begin{itemize}
+	\item {\bf in-memory computing} [Zhu2013] [Paul2014] [Williams2017a] [Theis2017] [Imani2020] [Wu2021]
+	\item {\bf hyperdimensional computing} [Imani2020] [Wu2021]
+	\item {\bf photonic ICs} [Topaloglu2015]
+	\item {\bf wafer-scale computing}
+	\item {\bf 3-D ICs} and {\bf high-bandwidth memory interconnects}
+	\item {\bf chiplet-based System-in-Package design}
+	\end{itemize}
+
+\end{frame}
+
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Section Three
 \section{Python-based IC Design}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 5
+%	Slide 6
 \begin{frame}
 	\frametitle{Python-based IC Design: Options}
 	%\framesubtitle{And, also for EDA and Compiler Design}
@@ -324,6 +349,35 @@ Helping {\it Python}istas Become Microarchitects}
 	\end{itemize}
 
 \end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 6
+\begin{frame}
+	\frametitle{Python-based IC Design: Options}
+	%\framesubtitle{And, also for EDA and Compiler Design}
+	
+	Possible options:
+	\begin{itemize}
+	\item {\bf MyHDL} (old)
+	\item {\bf PyMTL} (Cornell University)
+	\item {\bf PyRTL} (University of California, Santa Barbara)
+	\item {\bf Jupyter Notebook + Python} -based IC design flow (supported by Google Colab)
+	\item {\bf CIRCT: Circuit {IR} Compilers and Tools} [Lattner2021]
+		\begin{itemize}
+		\item LLVM (initially, Low Level Virtual Machine) [Lopes2014] [Pandey2015] [Sarda2015]
+		\item Multi-Level Intermediate Representation, MLIR (extension of LLVM ecosystem for domain-specific computing)
+		\end{itemize}
+	\end{itemize}
+
+\end{frame}
+
+
+
+
+
 
 
 
