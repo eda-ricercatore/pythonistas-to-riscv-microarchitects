@@ -1,0 +1,4 @@
+\beamer@sectionintoc {2}{Motivations for Python-based RISC Processor Design}{3}{0}{1}
+\beamer@sectionintoc {3}{Problems in Computer Architecture}{5}{0}{2}
+\beamer@sectionintoc {4}{New Golden Era of Computer Architecture, EDA, and Compiler Design}{8}{0}{3}
+\beamer@sectionintoc {5}{Python-based IC Design}{12}{0}{4}
