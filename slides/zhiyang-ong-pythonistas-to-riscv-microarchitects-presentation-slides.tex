@@ -193,6 +193,7 @@ Helping {\it Python}istas Become Microarchitects}
 \end{frame}
 }
 
+
 \section*{Outline}
 \begin{frame}
 \tableofcontents
@@ -213,14 +214,17 @@ Helping {\it Python}istas Become Microarchitects}
 %	Slide 1
 
 \begin{frame}
-	\frametitle{Problems in Computer Architecture}
+	\frametitle{Problems in Computer Architecture (1)}
 	\framesubtitle{Specifically with General-Purpose Processor Architectures}
 	
-	\begin{itemize} %\itemsep -4pt
+	Golden Era of Computer Architecture (1980s till early 2000s): \begin{itemize} %\itemsep -4pt
 	\item {\bf Memory Wall} [Wulf1995] [Hennessy1990] [Horowitz2023] [Solihin2002]
 	\item {\bf End of Dennard's scaling} [Dennard1974] [Haensch2006] [Chen2006] [Dennard2007] [Calhoun2008] [Iwai2009] and {\bf Power Wall} [Keshavarzi2007]
 	\item {\bf Dark Silicon} [Esmaeilzadeh2011] [Esmaeilzadeh2012] [Rahmani2017] [Hurson2018]
-	
+	\item {\bf ILP Wall} $\rightarrow$ {\bf limitations of } [Hennessy2019, \S1.11, pp. 39]
+	\item {\bf impending doom of Moore's law} [Duranton2019] [Kelleher2022]
+	\item {\bf decline of general-purpose processors} [Thompson2018]
+	\item {\bf Hardware Accelerator Wall} [Fuchs2019]
 	\end{itemize}
 
 \end{frame}
@@ -233,7 +237,7 @@ Helping {\it Python}istas Become Microarchitects}
 %	Slide 2
 
 \begin{frame}
-	\frametitle{Problems in Computer Architecture}
+	\frametitle{Problems in Computer Architecture (2)}
 	\framesubtitle{Specifically with General-Purpose Processor Architectures}
 	
 	\begin{figure}
@@ -251,26 +255,119 @@ Helping {\it Python}istas Become Microarchitects}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Section Two
-\section{Section Two}
+\section{New Golden Era of Computer Architecture + EDA + Compilers}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Subsection 2.1
-\subsection{Subsection 2.1}
+%\subsection{Subsection 2.1}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 3
 \begin{frame}
-	\frametitle{Slide Title 3}
+	\frametitle{New Golden Era of Computer Architecture (1)}
+	\framesubtitle{And, also for EDA and Compiler Design}
+	
+	Problems $\rightarrow$ Opportunities [Hennessy2019a] \\
+	\ \\
+	{\bf Domain-Specific Computing} [Hennessy2019] $\rightarrow$ {\bf Heterogeneous System Architectures} [HSAFoundationAdministration2016] [Hwu2016] [Duranton2019] \\
+	\ \\
+	{\bf Hardware Security} [Gruss2017] [Szefer2018] [Duranton2021] \\
+	\ \\
+	{\bf Open-Source ISA} [Patterson2018b], and support ecosystem across the hardware/software stack \\
+	
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 4
+\begin{frame}
+	\frametitle{New Golden Era of Computer Architecture (2)}
+	\framesubtitle{And, also for EDA and Compiler Design}
+	
+	%{\bf Agile IC Design Methodologies} [Gerstlauer2001] [Black2010a] [Goering2010] [Wilson2011a] [Johnson2010d] [McLellan2014a] [Hennessy2018] [Johnson2018a] + {\bf Python-based IC Design} \\
+	{\bf Agile IC Design Methodologies} [Gerstlauer2001] [Hennessy2018] [Johnson2018a] + {\bf Python-based IC Design} \\
+	\ \\
+	{\bf Domain-Specific Compilers [Lattner2021a] + Compilers for Heterogeneous Systems} \\
+	\ \\
+	System-Technology Co-Optimization [Wu2021]:
+	\begin{itemize}
+	\item {\bf system} $\rightarrow$ computer systems $\rightarrow$ hardware/software co-design
+	\item {\bf semiconductor manufacturing technology} (including semiconductor device engineering)
+	\end{itemize}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Section Three
+\section{Python-based IC Design}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 5
+\begin{frame}
+	\frametitle{Python-based IC Design: Options}
+	%\framesubtitle{And, also for EDA and Compiler Design}
+	
+	Possible options:
+	\begin{itemize}
+	\item {\bf MyHDL} (old)
+	\item {\bf PyMTL} (Cornell University)
+	\item {\bf PyRTL} (University of California, Santa Barbara)
+	\item {\bf Jupyter Notebook + Python} -based IC design flow (supported by Google Colab)
+	\item {\bf CIRCT: Circuit {IR} Compilers and Tools} [Lattner2021]
+		\begin{itemize}
+		\item LLVM (initially, Low Level Virtual Machine) [Lopes2014] [Pandey2015] [Sarda2015]
+		\item Multi-Level Intermediate Representation, MLIR (extension of LLVM ecosystem for domain-specific computing)
+		\end{itemize}
+	\end{itemize}
+
+\end{frame}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Section 3
+\section{Section 3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 6
+\begin{frame}
+	\frametitle{Slide Title 5}
+	\framesubtitle{Slide Subtitle 5.}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=2.6in]{./pics/my_figure}
+		\caption{Caption \#2}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 3
+\begin{frame}
+	\frametitle{New Golden Era of Computer Architecture, EDA, and Compiler Design}
 	\framesubtitle{Slide Subtitle 3}
 	
 	\begin{columns}[t]			% Contents are top vertically aligned
 		\begin{column}[T]{5cm}	% Each column can also be its own environment
 		
-		Statement 1. \\
+		Problems $\rightarrow$ Opportunities \\
 		\ \\
-		Statement 2. \\
+		Domain-Specific Computing $\rightarrow$ Heterogeneous System Architectures. \\
 		\ \\
 		Statement 3.
 		\end{column}
@@ -285,39 +382,7 @@ Helping {\it Python}istas Become Microarchitects}
 	\end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Subsection 2.2
-\subsection{Subsection 2.2}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 4
-\begin{frame}
-	\frametitle{Slide Title 4}
-	\framesubtitle{Slide Subtitle 4.}
-	
-	Statement 1 \cite{vanDongen2012}. \\
-	\ \\
-	Statement 2. \\
-	\ \\
-	Statement 3.
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Section 3
-\section{Section 3}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 5
-\begin{frame}
-	\frametitle{Slide Title 5}
-	\framesubtitle{Slide Subtitle 5.}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[height=2.6in]{./pics/my_figure}
-		\caption{Caption \#2}
-	\end{figure}
-\end{frame}
 
 
 
