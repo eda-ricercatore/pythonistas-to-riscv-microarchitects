@@ -353,27 +353,6 @@ Helping {\it Python}istas Become Microarchitects}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Slide 6
-\begin{frame}
-	\frametitle{Python-based IC Design: Options}
-	%\framesubtitle{And, also for EDA and Compiler Design}
-	
-	Possible options:
-	\begin{itemize}
-	\item {\bf MyHDL} (old)
-	\item {\bf PyMTL} (Cornell University)
-	\item {\bf PyRTL} (University of California, Santa Barbara)
-	\item {\bf Jupyter Notebook + Python} -based IC design flow (supported by Google Colab)
-	\item {\bf CIRCT: Circuit {IR} Compilers and Tools} [Lattner2021]
-		\begin{itemize}
-		\item LLVM (initially, Low Level Virtual Machine) [Lopes2014] [Pandey2015] [Sarda2015]
-		\item Multi-Level Intermediate Representation, MLIR (extension of LLVM ecosystem for domain-specific computing)
-		\end{itemize}
-	\end{itemize}
-
-\end{frame}
-
 
 
 
@@ -398,11 +377,6 @@ Helping {\it Python}istas Become Microarchitects}
 
 
 
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 8
 \begin{frame}
@@ -415,6 +389,42 @@ Helping {\it Python}istas Become Microarchitects}
 		\caption{Python-based VLSI Functional Verification: Using cocotb for HDL-based Simulation\dots Can use {\it PyUVM}}
 	\end{figure}
 \end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 9
+\begin{frame}
+	\frametitle{CIRCT -based IC Design Flow}
+	\framesubtitle{Supported by MLIR and LLVM}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=2.2in]{./pics/CIRCTMLIR}
+		\caption{CIRCT IC design flow + MLIR + LLVM}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+
 
 
 
