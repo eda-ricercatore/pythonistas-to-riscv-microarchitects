@@ -1,33 +1,14 @@
-#	Information on Using Jupyter Notebooks to Design Integrated Circuits
+#	To-Do List
 
 
 
-##	Worked Examples from IEEE Solid-State Circuits Society's (IEEE SSCS) Code-a-Chip (CAC) Contests
-
-
-###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2023
-
-
-
-
-
-
-
-
-
-####	IC/VLSI DevOps, or Hardware DevOps
-
-
-
-
-####	Open-Source IC Intellectual Property (IP) Blocks/Cores
-
-
-+ Olof Kindgren
-	- https://github.com/olofk/subservient
-	- Small SERV-based SoC primarily for OpenMPW tapeout
-	- https://github.com/olofk/serv
-	- SERV - The SErial RISC-V CPU
++ [ ] Figure out how to install required software for a Jupyter notebook environment in Google Colab, for IC design flows based on the following:
+	- [ ] PyMTL
+	- [ ] PyRTL
+	- [ ] PyGears
+	- [ ] CIRCT, MLIR, LLVM
+	- [ ] MyHDL
+		* Ignore approach, if running out of time.
 
 
 
@@ -35,13 +16,6 @@
 
 
 
-###	IEEE SSCS Code-a-Chip (CAC) Contest for VLSI Symposium 2023
-
-
-
-
-
-###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2024
 
 
 
