@@ -12,45 +12,47 @@
 Features of Jupyter notebooks that
 + https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/DLDO_gen/LDO_notebook.ipynb
 	- uses apt-get to install software on Jupyter notebook
-https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/cordic_openlane.ipynb#scrollTo=JA-bv0QURRjq
-https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/cordic_openlane.ipynb
-+ also has user interaction, via menu selection
-+ has code to show markdown text while showing Python text
-https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/.ipynb_checkpoints/SonarOnChip(channel)-checkpoint.ipynb
-+ also has information about using Verilog design with multiple Verilog modules
-+ has useful information about Tcl scripts for VLSI CAD
-https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/SonarOnChip(channel).ipynb
-https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/SonarOnChip(channel).ipynb
-+ uses hdl/conda-eda to install open-source EDA tools
-	- https://github.com/hdl/conda-eda/tree/master/.github/workflows
-+ use OpenLane from The OpenROAD Project
-	- https://openlane.readthedocs.io/en/latest/reference/configuration.html
-	- https://theopenroadproject.org/
-+ also has information about using Verilog design with multiple Verilog modules
-+ has useful information about Tcl scripts for VLSI CAD
-	- Also uses Python code to configure Tcl script(s) for VLSI CAD
-	- has errors that need to be fixed
-+ has Python code to display IC layout design
-	- has errors that need to be fixed
-+ has Python code to show report about the IC layout/design
-https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/scan_register_gen_colab.ipynb
-https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/scan_register_gen_colab.ipynb
-+ use condacolab to interface between the Conda/Anaconda environment of the Jupyter notebook, 
-+ use YAML file to configure the MAMBA set-up
-	- learn to write yaml files
-+ use Mamba with aforementioned YAML file (as an input file) to install software
-+ uses a long process to generate the physical design
-+ ***Has error with version mismatch of CPython ***
-	- with top-level layout design
-	- with PySPICE circuit simulation
-+ can do LVS
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/cordic_openlane.ipynb
+	- https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/cordic_openlane.ipynb#scrollTo=JA-bv0QURRjq
+	- also has user interaction, via menu selection
+	- has code to show markdown text while showing Python text
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/.ipynb_checkpoints/SonarOnChip(channel)-checkpoint.ipynb
+	- also has information about using Verilog design with multiple Verilog modules
+	- has useful information about Tcl scripts for VLSI CAD
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/SonarOnChip(channel).ipynb
+	- https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/SonarOnChip/SonarOnChip(channel).ipynb
+	- uses hdl/conda-eda to install open-source EDA tools
+		* https://github.com/hdl/conda-eda/tree/master/.github/workflows
+	- use OpenLane from The OpenROAD Project
+		* https://openlane.readthedocs.io/en/latest/reference/configuration.html
+		* https://theopenroadproject.org/
+	- also has information about using Verilog design with multiple Verilog modules
+	- has useful information about Tcl scripts for VLSI CAD
+		* Also uses Python code to configure Tcl script(s) for VLSI CAD
+		* has errors that need to be fixed
+	- has Python code to display IC layout design
+		* has errors that need to be fixed
+	- has Python code to show report about the IC layout/design
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/scan_register_gen_colab.ipynb
+	- https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/ISSCC23/accepted_notebooks/scan_register_gen_colab.ipynb
+	- use condacolab to interface between the Conda/Anaconda environment of the Jupyter notebook, and software applications that I need to use
+	- use YAML file to configure the MAMBA set-up
+		* learn to write yaml files
+	- use Mamba with aforementioned YAML file (as an input file) to install software
+	- uses a long process to generate the physical design
+	- ***Has error with version mismatch of CPython ***
+		* with top-level layout design
+		* with PySPICE circuit simulation
+	- can do LVS
 
 
 
 
 Additional information for using Jupyter Notebooks:
 + https://github.com/jupyter-xeus/xeus-cling
-	- 
+	- Jupyter kernel for the C++ programming language
+
+
 
 
 
