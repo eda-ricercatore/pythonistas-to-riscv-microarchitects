@@ -1,6 +1,80 @@
-# pythonistas-to-riscv-microarchitects
+#	Information on Using Jupyter Notebooks to Design Integrated Circuits
 
-VLSI deisgn workflows to help Pythonistas become RISC-V microarchitects
+
+
+##	Worked Examples from IEEE Solid-State Circuits Society's (IEEE SSCS) Code-a-Chip (CAC) Contests
+
+
+###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2023
+
+
+
+
+
+
+
+
+
+####	IC/VLSI DevOps, or Hardware DevOps
+
+
+
+
+####	Open-Source IC Intellectual Property (IP) Blocks/Cores
+
+
++ Olof Kindgren
+	- https://github.com/olofk/subservient
+	- Small SERV-based SoC primarily for OpenMPW tapeout
+	- https://github.com/olofk/serv
+	- SERV - The SErial RISC-V CPU
+
+
+
+
+
+
+
+###	IEEE SSCS Code-a-Chip (CAC) Contest for VLSI Symposium 2023
+
+
+
+
+
+###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2024
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+''
+
+
+
 
 
 
