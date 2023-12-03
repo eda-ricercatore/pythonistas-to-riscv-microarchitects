@@ -5,6 +5,11 @@
 ##	Worked Examples from IEEE Solid-State Circuits Society's (IEEE SSCS) Code-a-Chip (CAC) Contests
 
 
+Some teams have a simple readme file, which is not required.
+
+Create .ipynb checkpoints
+
+
 ###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2023
 
 
@@ -72,8 +77,44 @@ Features of Jupyter notebooks that stick out to me:
 
 
 
+Features of Jupyter notebooks that stick out to me:
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/VLSI23/accepted_notebooks/3LFCC/3LFCC_v2p0.ipynb
+	- https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/VLSI23/accepted_notebooks/3LFCC/3LFCC_v2p0.ipynb?authuser=1#scrollTo=9780909e-7107-4fca-b842-a7a80f2ed540
+	- clone an existing GitHub repository
+		* GitHub repository to clone is empty.
+	- failed to build wheel for gdstk
+	- 
++ https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/VLSI23/accepted_notebooks/DFFRAM_laygo2/DFFRAM_gen_colab.ipynb
+	- https://colab.research.google.com/github/sscs-ose/sscs-ose-code-a-chip.github.io/blob/main/VLSI23/accepted_notebooks/DFFRAM_laygo2/DFFRAM_gen_colab.ipynb	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###	IEEE SSCS Code-a-Chip (CAC) Contest for ISSCC 2024
+
+
+
+Features of Jupyter notebooks that stick out to me:
+
+
+
+
+
+
+
+
+
 
 
 
